@@ -14,7 +14,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/tytremblay/Documents/frc/QRScout/public/icons/icon-1024x1024.png"
+   inkscape:export-filename="./public/icons/icon-1024x1024.png"
    inkscape:export-xdpi="257.57123"
    inkscape:export-ydpi="257.57123"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -57,7 +57,7 @@
      id="layer1">
     <g
        id="g4718"
-       inkscape:export-filename="/home/tytremblay/Documents/frc/QRScout/public/favicon-32x32.png"
+       inkscape:export-filename="./public/favicon-32x32.png"
        inkscape:export-xdpi="8.0500002"
        inkscape:export-ydpi="8.0500002">
       <circle
