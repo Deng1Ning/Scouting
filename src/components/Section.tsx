@@ -16,7 +16,7 @@ export default function Section(props: SectionProps) {
       key={props.name}
     >
       <div className="mb-2 rounded-t bg-red-rhr p-1 shadow-md">
-        <h2 className="font-rhr-ns text-2xl uppercase text-white dark:text-black">
+        <h2 className="font-rhr-ns text-2xl uppercase text-white dark:text-white">
           {props.name}
         </h2>
       </div>

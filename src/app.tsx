@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes';
 import { useMemo, useState } from 'preact/hooks';
-import { Logo } from './components/Logo';
+import CULogo from './components/CULogo';
 import QRModal from './components/QRModal';
 import Section from './components/Section';
 import Button, { Variant } from './components/core/Button';
@@ -63,7 +63,7 @@ export function App() {
   }
 
   return (
-    <div className="min-h-screen py-2 dark:bg-gray-700">
+    <div className="min-h-screen py-2 dark:bg-black">
       <head>
         <title>QRScout|{formData.title}</title>
         <link rel="icon" href="/favicon.ico" />
@@ -96,7 +96,7 @@ export function App() {
                 Commit
               </button>
               <button
-                className="focus:shadow-outline mx-2 my-6 rounded border border-red-rhr bg-white py-2 font-bold uppercase text-red-rhr hover:bg-red-200 focus:outline-none dark:bg-gray-500 dark:text-white dark:hover:bg-gray-700"
+                className="focus:shadow-outline mx-2 my-6 rounded border border-red-rhr bg-white py-2 font-bold uppercase text-red-rhr hover:bg-purple-800 focus:outline-none dark:bg-gray-500 dark:text-white dark:hover:bg-gray-700"
                 type="button"
                 onClick={() => resetSections()}
               >
@@ -167,8 +167,8 @@ export function App() {
         </form>
       </main>
       <footer>
-        <div className="mt-8 flex h-24 flex-col items-center justify-center p-2">
-          <Logo />
+        <div className="mt-2 flex h-96 flex-col items-center justify-center p-2">
+          <CULogo />
         </div>
       </footer>
     </div>
